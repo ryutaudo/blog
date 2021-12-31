@@ -32,15 +32,11 @@ export default function Layout({
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
-        {home ? (
-          <h1 className={utilStyles.heading2Xl}>{name}</h1>
-        ) : (
-          <h2 className={utilStyles.headingLg}>
-            <Link href="/">
-              <a className={utilStyles.colorInherit}>{name}</a>
-            </Link>
-          </h2>
-        )}
+        <h2 className={utilStyles.headingLg}>
+          <Link href="/">
+            <a className={utilStyles.colorInherit}>{name}</a>
+          </Link>
+        </h2>
       </header>
       <main>{children}</main>
       {!home && (
