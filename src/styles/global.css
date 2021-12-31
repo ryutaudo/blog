@@ -1,9 +1,30 @@
+/* Theme Colors */
+:root {
+  --color-body: #94a1b2;
+  --color-headline: #fffffe;
+  --color-primary: #7f5af0;
+  --color-secondary: #2cb67d;
+  --color-background: #16161a;
+  --color-background-light: #242629;
+}
+
 /* My Global CSS */
 html,
 body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 18px;
+  background: var(--color-background);
+  color: var(--color-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-headline);
 }
 
 * {
@@ -11,7 +32,7 @@ body {
 }
 
 a {
-  color: #0070f3;
+  color: var(--color-primary);
   text-decoration: none;
 }
 
