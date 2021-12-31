@@ -1,13 +1,22 @@
 .container {
-  max-width: 36rem;
-  padding: 0 1rem;
-  margin: 3rem auto 6rem;
+  max-width: 1200px;
+  padding: 0 40px;
+  margin: 0 auto 6rem;
 }
 
 .header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 64px;
+}
+
+.blogTitle {
+  font-size: 18px;
+  line-height: 64px;
+  color: var(--color-headline);
+  font-weight: bold;
+}
+
+.blogTitle:hover {
+  text-decoration: none;
 }
 
 .backToHome {

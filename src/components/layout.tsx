@@ -4,7 +4,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'ryutaudo/blog'
+const name = 'ryutaudo / blog'
 export const siteTitle = 'ryutaudo/blog'
 
 export default function Layout({
@@ -32,11 +32,9 @@ export default function Layout({
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
-        <h2 className={utilStyles.headingLg}>
-          <Link href="/">
-            <a className={utilStyles.colorInherit}>{name}</a>
-          </Link>
-        </h2>
+        <Link href="/">
+          <a className={styles.blogTitle}>{name}</a>
+        </Link>
       </header>
       <main>{children}</main>
       {!home && (
