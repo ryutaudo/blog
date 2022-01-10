@@ -1,4 +1,7 @@
 .postContent {
+  font-size: 16px;
+  line-height: 1.9;
+
   h1,
   h2,
   h3,
@@ -8,24 +11,61 @@
     color: var(--c-headline);
     code {
     }
+    & + p {
+      margin-top: 0.3em;
+    }
+  }
+
+  h1,
+  h2 {
+    margin-top: 2.3em;
+    margin-bottom: 0.5em;
+  }
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 2.25em;
+    margin-bottom: 0.5em;
   }
 
   h1 {
+    font-size: 1.7em;
+    padding-bottom: 0.2em;
+    margin-bottom: 1.1em;
+    border-bottom: 1px solid var(--c-background-light);
   }
   h2 {
+    font-size: 1.5em;
   }
   h3 {
+    font-size: 1.3em;
   }
   h4 {
+    font-size: 1.1em;
   }
   h5 {
+    font-size: 1em;
   }
   h6 {
+    font-size: 0.9em;
   }
+
   hr {
+    border-top: 2px solid var(--c-background-light);
+    margin: 2.5em 0;
   }
+
+  br {
+    display: none;
+  }
+
   p {
     white-space: pre-wrap;
+    & + p {
+      margin-top: 1.5em;
+    }
 
     code {
     }
@@ -34,6 +74,13 @@
     img {
     }
   }
+
+  ul,
+  ol {
+    margin: 1.4rem 0;
+    line-height: 1.7;
+  }
+
   ul {
     // 1階層目
     li {

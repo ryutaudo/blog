@@ -11,9 +11,9 @@
 /* My Global CSS */
 html,
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-size: 18px;
+  font-family: -apple-system, 'BlinkMacSystemFont', 'Hiragino Kaku Gothic ProN',
+    'Hiragino Sans', Meiryo, sans-serif, 'Segoe UI Emoji';
+  font-size: 16px;
   background: var(--c-background);
   color: var(--c-body);
 }
@@ -24,6 +24,10 @@ h3,
 h4,
 h5,
 h6 {
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.5;
+  outline: 0;
   color: var(--c-headline);
 }
 
@@ -43,4 +47,8 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+
+hr {
+  border: none;
 }
