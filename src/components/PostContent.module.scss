@@ -1,0 +1,95 @@
+.postContent {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    // ヘッダー共通スタイル
+    code {
+    }
+  }
+
+  h1 {
+    color: var(--color-secondary);
+  }
+  h2 {
+  }
+  h3 {
+  }
+  h4 {
+  }
+  h5 {
+  }
+  h6 {
+  }
+  hr {
+  }
+  p {
+    white-space: pre-wrap;
+
+    code {
+    }
+    a {
+    }
+    img {
+    }
+  }
+  ul {
+    // 1階層目
+    li {
+      &::marker {
+      }
+      ul {
+        // 2階層目
+        li {
+          &::marker {
+          }
+
+          ul {
+            // 3階層目
+            li {
+              &::marker {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  ol {
+    // 1階層目
+    li {
+      &::marker {
+      }
+      ol {
+        // 2階層目
+        li {
+          &::marker {
+          }
+          ol {
+            // 3階層目
+            li {
+              &::marker {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //コードブロック
+  pre {
+    code {
+    }
+  }
+
+  blockquote {
+    blockquote {
+    }
+
+    p {
+    }
+  }
+}
