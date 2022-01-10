@@ -24,13 +24,15 @@ export default function Home({
       <section className={utilStyles.headingMd}>
         <Profile />
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+      <section
+        className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.articleList}`}
+      >
+        <h2 className={utilStyles.headingLg}>Articles</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
-                <a>{title}</a>
+                <a className={utilStyles.link}>{title}</a>
               </Link>
               <br />
               <small className={utilStyles.lightText}>

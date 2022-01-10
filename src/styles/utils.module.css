@@ -48,7 +48,15 @@
 }
 
 .lightText {
-  color: #666;
+  color: var(--color-body);
+}
+
+.articleList {
+  margin-top: 48px;
+}
+
+.link {
+  color: var(--color-headline);
 }
 
 @media screen and (max-width: 576px) {
