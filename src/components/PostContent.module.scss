@@ -5,13 +5,12 @@
   h4,
   h5,
   h6 {
-    // ヘッダー共通スタイル
+    color: var(--c-headline);
     code {
     }
   }
 
   h1 {
-    color: var(--color-secondary);
   }
   h2 {
   }

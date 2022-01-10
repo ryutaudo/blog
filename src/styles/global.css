@@ -1,11 +1,11 @@
 /* Theme Colors */
 :root {
-  --color-body: #94a1b2;
-  --color-headline: #fffffe;
-  --color-primary: #7f5af0;
-  --color-secondary: #2cb67d;
-  --color-background: #16161a;
-  --color-background-light: #242629;
+  --c-body: #94a1b2;
+  --c-headline: #fffffe;
+  --c-primary: #7f5af0;
+  --c-secondary: #2cb67d;
+  --c-background: #16161a;
+  --c-background-light: #242629;
 }
 
 /* My Global CSS */
@@ -14,8 +14,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 18px;
-  background: var(--color-background);
-  color: var(--color-body);
+  background: var(--c-background);
+  color: var(--c-body);
 }
 
 h1,
@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--color-headline);
+  color: var(--c-headline);
 }
 
 * {
@@ -32,7 +32,7 @@ h6 {
 }
 
 a {
-  color: var(--color-primary);
+  color: var(--c-primary);
   text-decoration: none;
 }
 
