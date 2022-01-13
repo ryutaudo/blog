@@ -19,6 +19,10 @@ export default function Post({
     <Layout>
       <Head>
         <title>{postData.title}</title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto+Mono"
+          rel="stylesheet"
+        />
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
