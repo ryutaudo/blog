@@ -29,7 +29,9 @@ export default function Post({
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />
         </div>
-        <PostContent content={postData.contentHtml} />
+        <div className={utilStyles.content}>
+          <PostContent content={postData.contentHtml} />
+        </div>
       </article>
     </Layout>
   )
