@@ -6,6 +6,8 @@
 
 .header {
   height: 64px;
+  display: flex;
+  align-items: center;
 }
 
 .blogTitle {
@@ -13,6 +15,7 @@
   line-height: 64px;
   color: var(--c-headline);
   font-weight: bold;
+  margin-left: 16px;
 }
 
 .blogTitle:hover {

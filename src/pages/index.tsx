@@ -21,7 +21,7 @@ export default function Home({
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
+      <section className={utilStyles.profile}>
         <Profile />
       </section>
       <section
