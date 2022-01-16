@@ -23,6 +23,7 @@ export default function Post({
           href="https://fonts.googleapis.com/css2?family=Roboto+Mono"
           rel="stylesheet"
         />
+        <meta name="og:title" content={postData.title} />
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
