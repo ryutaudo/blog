@@ -20,7 +20,7 @@ export default function Layout({
         <meta name="description" content="Ryuta Udo's personal blog" />
         <meta
           property="og:image"
-          content={'https://blog.ryutau.dev/images/logo.svg'}
+          content={'https://blog.ryutau.dev/images/logo.png'}
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary" />
