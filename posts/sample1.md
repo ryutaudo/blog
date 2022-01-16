@@ -146,9 +146,9 @@ console.log(test)
 
 ## リンク
 
-markdown でテキストリンク [WIRED.jp](http://wired.jp/ 'WIRED.jp')
+markdown でテキストリンク [WIRED.jp](https://wired.jp/ 'WIRED.jp')
 
-<カッコ>でくくってリンク <http://wired.jp/>
+<カッコ>でくくってリンク <https://wired.jp/>
 
 定義参照リンクです。SNS には [Twitter] [1] や [Facebook] [2] や [Google+] [3] などがあります。
 
@@ -158,7 +158,7 @@ markdown でテキストリンク [WIRED.jp](http://wired.jp/ 'WIRED.jp')
 
 ## 画像
 
-![うきっ！](http://mkb.salchu.net/image/salchu_image02.jpg 'salchu_image02.jpg')
+![うきっ！](https://mkb.salchu.net/image/salchu_image02.jpg 'salchu_image02.jpg')
 
 ## table
 
@@ -177,7 +177,7 @@ markdown でテキストリンク [WIRED.jp](http://wired.jp/ 'WIRED.jp')
 
 ## リンク
 
-URL そのまま貼り付け http://wired.jp/
+URL そのまま貼り付け https://wired.jp/
 
 ## 段落中の改行
 
@@ -225,4 +225,4 @@ GitHub_Flavored_Markdown_test_test
 
 ---
 
-from [Markdown 記法 表示確認用サンプル - Qiita](http://qiita.com/salchu/items/da81122ed50b35feda4d 'Markdown記法 表示確認用サンプル - Qiita')
+from [Markdown 記法 表示確認用サンプル - Qiita](https://qiita.com/salchu/items/da81122ed50b35feda4d 'Markdown記法 表示確認用サンプル - Qiita')
