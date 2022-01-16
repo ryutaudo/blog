@@ -95,9 +95,21 @@
     }
   }
 
-  //コードブロック
   pre {
-    code {
+    background: var(--c-background-light);
+    margin: 1.3rem 0;
+    overflow-x: auto;
+    border-radius: 0.4em;
+    word-break: normal;
+    word-wrap: normal;
+    display: flex;
+
+    & > code {
+      color: var(--c-headline);
+      display: block;
+      margin: 0;
+      padding: 1.1rem;
+      font-size: 0.9em;
     }
   }
 
