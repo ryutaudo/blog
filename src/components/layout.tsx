@@ -18,14 +18,17 @@ export default function Layout({
       <Head>
         <link rel="icon" href="/images/logo.svg" type="image/svg+xml" />
         <meta name="description" content="Ryuta Udo's personal blog" />
-        <meta property="og:image" content={'/images/logo.png'} />
+        <meta
+          property="og:image"
+          content={'https://blog.ryutau.dev/images/logo.svg'}
+        />
         <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary" />
       </Head>
       <header className={styles.header}>
         <Link href="/">
           <a>
-            <Image src="/images/logo.svg" width="36" height="36" />
+            <Image src="/images/logo.svg" width="33" height="36" />
           </a>
         </Link>
         <Link href="/">
