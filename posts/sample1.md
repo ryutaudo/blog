@@ -137,6 +137,11 @@ body { display: none; } /* バッククォート囲みcss */
     // 先頭に半角スペース4つでcode囲い
     <?php if (is_tag()){ $posts = query_posts($query_string . '&showposts=20'); } ?>
 
+```javascript
+const test = 10
+console.log(test)
+```
+
 バッククォート 1 個ずつで囲むとインラインのコード（`<code></code>`）です。`body { visibility: hidden; }`
 
 ## リンク
