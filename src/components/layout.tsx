@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'ryutaudo / blog'
@@ -18,18 +17,15 @@ export default function Layout({
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/images/logo.svg" type="image/svg+xml" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
-        <meta property="og:image" content={'/images/logo.svg'} />
+        <meta name="description" content="Ryuta Udo's personal blog" />
+        <meta property="og:image" content={'/images/logo.png'} />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
         <Link href="/">
           <a>
-            <Image src="/images/logo.svg" width="33" height="36" />
+            <Image src="/images/logo.svg" width="36" height="36" />
           </a>
         </Link>
         <Link href="/">
