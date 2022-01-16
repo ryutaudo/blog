@@ -13,8 +13,6 @@
   h5,
   h6 {
     color: var(--c-headline);
-    code {
-    }
     & + p {
       margin-top: 0.3em;
     }
@@ -71,13 +69,27 @@
       margin-top: 1.5em;
     }
 
-    code {
-      background: var(--c-background-light);
-    }
     a {
       color: var(--c-primary);
     }
     img {
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    & > code {
+      color: var(--c-secondary);
+      background: var(--c-background-light);
+      padding: 0.2em 0.4em;
+      font-size: 0.85em;
+      border-radius: 4px;
+      vertical-align: 0.08em;
     }
   }
 
