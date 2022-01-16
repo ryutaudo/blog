@@ -132,4 +132,22 @@
       opacity: 0.8;
     }
   }
+
+  table {
+    margin: 1.4em 0;
+    border: 1px solid var(--c-body);
+    border-collapse: collapse;
+
+    tbody {
+      tr:nth-child(odd) {
+        background: var(--c-background-light);
+      }
+    }
+
+    th,
+    td {
+      border: 1px solid var(--c-body);
+      padding: 0.4em 0.8em;
+    }
+  }
 }
