@@ -13,9 +13,6 @@
   h5,
   h6 {
     color: var(--c-headline);
-    code {
-      background: var(--c-background-light);
-    }
     & + p {
       margin-top: 0.3em;
     }
@@ -72,76 +69,89 @@
       margin-top: 1.5em;
     }
 
-    code {
-      background: var(--c-background-light);
-    }
     a {
+      color: var(--c-primary);
     }
-    img {
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  li {
+    & > code {
+      color: var(--c-secondary);
+      background: var(--c-background-light);
+      padding: 0.2em 0.4em;
+      font-size: 0.85em;
+      border-radius: 4px;
+      vertical-align: 0.08em;
     }
   }
 
   ul,
   ol {
     margin: 1.4rem 0;
+    padding-left: 1.8em;
     line-height: 1.7;
-  }
-
-  ul {
-    // 1階層目
     li {
-      &::marker {
-      }
-      ul {
-        // 2階層目
-        li {
-          &::marker {
-          }
-
-          ul {
-            // 3階層目
-            li {
-              &::marker {
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  ol {
-    // 1階層目
-    li {
-      &::marker {
-      }
+      margin: 0.4em 0;
+      ul,
       ol {
-        // 2階層目
-        li {
-          &::marker {
-          }
-          ol {
-            // 3階層目
-            li {
-              &::marker {
-              }
-            }
-          }
-        }
+        margin: 0;
       }
     }
   }
 
-  //コードブロック
   pre {
-    code {
+    background: var(--c-background-light);
+    margin: 1.3rem 0;
+    overflow-x: auto;
+    border-radius: 0.4em;
+    word-break: normal;
+    word-wrap: normal;
+    display: flex;
+
+    & > code {
+      color: var(--c-headline);
+      display: block;
+      margin: 0;
+      padding: 1.1rem;
+      font-size: 0.9em;
     }
   }
 
   blockquote {
-    blockquote {
+    padding-left: 1.8em;
+    border-left: 4px solid var(--c-background-light);
+
+    * {
+      opacity: 0.8;
+    }
+  }
+
+  table {
+    margin: 1.4em 0;
+    border: 1px solid var(--c-body);
+    border-collapse: collapse;
+
+    thead {
+      color: var(--c-headline);
     }
 
-    p {
+    tbody {
+      tr:nth-child(odd) {
+        background: var(--c-background-light);
+      }
+    }
+
+    th,
+    td {
+      border: 1px solid var(--c-body);
+      padding: 0.4em 0.8em;
     }
   }
 }

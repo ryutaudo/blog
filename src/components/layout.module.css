@@ -1,11 +1,13 @@
 .container {
-  max-width: 1200px;
+  max-width: 800px;
   padding: 0 40px;
   margin: 0 auto 6rem;
 }
 
 .header {
   height: 64px;
+  display: flex;
+  align-items: center;
 }
 
 .blogTitle {
@@ -13,6 +15,7 @@
   line-height: 64px;
   color: var(--c-headline);
   font-weight: bold;
+  margin-left: 16px;
 }
 
 .blogTitle:hover {
@@ -21,4 +24,10 @@
 
 .backToHome {
   margin: 3rem 0 0;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 0 24px;
+  }
 }
