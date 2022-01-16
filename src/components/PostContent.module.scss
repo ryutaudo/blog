@@ -82,7 +82,8 @@
   h4,
   h5,
   h6,
-  p {
+  p,
+  li {
     & > code {
       color: var(--c-secondary);
       background: var(--c-background-light);
