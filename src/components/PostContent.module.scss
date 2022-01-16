@@ -138,6 +138,10 @@
     border: 1px solid var(--c-body);
     border-collapse: collapse;
 
+    thead {
+      color: var(--c-headline);
+    }
+
     tbody {
       tr:nth-child(odd) {
         background: var(--c-background-light);
