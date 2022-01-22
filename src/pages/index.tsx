@@ -1,11 +1,11 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
-import { getSortedPostsData } from '../lib/posts'
-import Link from 'next/link'
-import Date from '../components/date'
-import Profile from '../components/Profile'
 import { GetStaticProps } from 'next'
+import Head from 'next/head'
+import Link from 'next/link'
+import Layout from 'components/Layout'
+import Date from 'components/Date'
+import Profile from 'components/Profile'
+import { getSortedPostsData } from 'lib/posts'
+import utilStyles from 'styles/utils.module.css'
 
 export default function Home({
   allPostsData,
@@ -19,7 +19,7 @@ export default function Home({
   return (
     <Layout home>
       <Head>
-        <title>{siteTitle}</title>
+        <title>ryutaudo/blog</title>
       </Head>
       <section className={utilStyles.profile}>
         <Profile />

@@ -1,4 +1,4 @@
-import styles from './PostContent.module.scss'
+import s from './MarkdownView.module.scss'
 
 type PostContentProps = {
   content: string
@@ -7,7 +7,7 @@ type PostContentProps = {
 export default function PostContent({ content }: PostContentProps) {
   return (
     <div
-      className={styles.postContent}
+      className={s.markdownView}
       dangerouslySetInnerHTML={{ __html: content }}
     />
   )
