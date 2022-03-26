@@ -26,6 +26,6 @@
     "typescript": "^4.3.5"
   },
   "lint-staged": {
-    "*.{js,css,md}": "prettier --write"
+    "*.{js,ts,jsx,tsx,css,scss,md}": "prettier --write"
   }
 }
