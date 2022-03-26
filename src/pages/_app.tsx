@@ -1,6 +1,6 @@
-import '../styles/res.css'
-import '../styles/global.css'
-import '../styles/prism.css'
+import '../styles/res.scss'
+import '../styles/global.scss'
+import '../styles/prism.scss'
 import { AppProps } from 'next/app'
 import GoogleTagManager from 'components/GoogleTagManager'
 

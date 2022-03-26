@@ -5,7 +5,7 @@ import Layout from 'components/Layout'
 import Date from 'components/Date'
 import Profile from 'components/Profile'
 import { getSortedPostsData } from 'lib/posts'
-import utilStyles from 'styles/utils.module.css'
+import utilStyles from 'styles/utils.module.scss'
 
 export default function Home({
   allPostsData,

@@ -4,7 +4,7 @@ import Date from 'components/Date'
 import Layout from 'components/Layout'
 import PostContent from 'components/MarkdownView'
 import { getAllPostIds, getPostData } from 'lib/posts'
-import utilStyles from 'styles/utils.module.css'
+import utilStyles from 'styles/utils.module.scss'
 
 export default function Post({
   postData,
