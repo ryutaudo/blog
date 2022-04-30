@@ -1,6 +1,7 @@
 import '../styles/res.scss'
 import '../styles/global.scss'
 import '../styles/prism.scss'
+import '../lib/prism'
 import { AppProps } from 'next/app'
 import GoogleTagManager from 'components/GoogleTagManager'
 
